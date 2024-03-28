@@ -27,7 +27,7 @@ function Howitworks() {
                         <p> 2</p>
                     </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Outreach</h3>
-                        <p class="text-gray-500 dark:text-gray-400">We analye HARO requests, as well as utilize Twitter and Muckrack, then your outreach manager engages with journalists and editors on your behalf.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Your outreach manager engages with journalists and editors on your behalf, pitching your story and expertise.</p>
                     </div>
                     <div style={{
                             textAlign: '-webkit-center'
@@ -36,7 +36,7 @@ function Howitworks() {
                         <p> 3</p>
                     </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Results</h3>
-                        <p class="text-gray-500 dark:text-gray-400">Get backlinks from trusted and respected publications in the form on quotes. Each month we'll send you a report on backlinks in progress as well.  </p>
+                        <p class="text-gray-500 dark:text-gray-400">Get backlinks from trusted and respected publications in the form on quotes, interviews, breaking news and more. Each month we'll send you a report on backlinks in progress.  </p>
                     </div>
                 </div>
             </div>

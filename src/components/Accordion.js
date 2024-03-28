@@ -4,7 +4,7 @@ import { Accordion } from "flowbite-react";
 
 export function AccordionFx() {
   return (
-    <div class="py-8 px-4 mx-auto max-w-screen-xl">
+    <div id='FAQ'class="py-8 px-4 mx-auto max-w-screen-xl">
     <Accordion>
       <Accordion.Panel>
         <Accordion.Title>Can I review the content before its published?</Accordion.Title>

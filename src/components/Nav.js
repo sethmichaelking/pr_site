@@ -1,19 +1,32 @@
 import React from 'react'
-
+import { IoIosPulse } from "react-icons/io";
+import {Link} from 'react-router-dom'
 function Nav() {
     function goToContactForm(e){
         e.preventDefault();
         window.location.href = 'https://5t4cavas5zs.typeform.com/to/U4QKeEKe'
+    }
+    function goToFAQ(){
+        document.getElementById('FAQ').scrollIntoView() 
     }
   return (
     <div>
         <header>
     <nav class="bg-white px-4 lg:px-6 py-2.5">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="https://flowbite.com" class="flex items-center text-black">
+            <span  class="flex items-center text-black">
+                <IoIosPulse class='mr-3'/>
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">LinkBuildr</span>
-            </a>
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">PulsePR</span>
+            </span>
+            {/* <span class="flex items-center text-black">
+                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
+                {/* <Link> <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-black">About</span> </Link> */}
+            {/* </span> */} 
+            {/* <span onClick={()=>goToFAQ()}class="flex items-center text-black">
+                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
+                {/* <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-black">FAQ</span> */}
+            {/* </span> */} 
             <div class="flex items-center after:transition after:ease-[ease] after:duration-50 lg:order-2">
                 <button onClick={(e)=> goToContactForm(e)}>
                     <a href="#" class="flex text-black bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">

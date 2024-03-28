@@ -11,7 +11,7 @@ function Logos() {
     <div>
         <section class="text-black">
             <div class="mx-auto max-w-screen-xl px-4">
-            <h2 class="lg:mb-8 text-3xl font-extrabold tracking-tight text-black leading-tight text-center md:text-4xl">Relationships matter. We know <span class='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'> how journalists think.</span> </h2>
+            <h2 class="lg:mb-8 text-3xl font-extrabold animate-fade tracking-tight text-black leading-tight text-center md:text-4xl">Relationships matter. We know <span class='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'> how journalists think.</span> </h2>
             <h5 class="mb-8 text-2xl font-extrabold tracking-tight leading-tight text-center text-gray-700 text-black md:text-2xl"> Get featured on</h5>
             {/* <!-- HTML --> */}
             <div class="flex h-20 overflow-hidden space-x-16 mb-10 ">

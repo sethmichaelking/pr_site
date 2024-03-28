@@ -11,15 +11,18 @@ module.exports = {
             'bounce-short': 'bounce 1s ease-in-out 5',
             //horizontal fade
             'loop-scroll': 'loop-scroll 50s linear infinite',
-            'fade': 'fadeOut 5s ease-in-out',
-
+            'fade': 'fadeIn 2s ease-in-out',
             
           },
           keyframes: {
             'loop-scroll': {
               from: { transform: 'translateX(0)' },
               to: { transform: 'translateX(-100%)' },
-            }
+            },
+            fadeIn: {
+              from: { opacity: 0 },
+              to: { opacity: 1 },
+            },
           }     
         }
       },
