@@ -11,7 +11,7 @@ function About() {
             <div class='mx-auto max-w-5xl px-4 sm:px-6'>
                 <div class="mx-auto mb-20 max-w-screen-sm">
                     <h1 class="font-orbiter mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Unlocking brand oppurtunities</h1>
-                    <p class="font-lighttext-xl text-gray-600 dark:text-gray-400">At ParticlePR, our mission is bridge the gap between journalists and experts and bring awareness to your brand. </p>
+                    <p class="font-lighttext-xl text-gray-600 dark:text-gray-400">At PulsePR, our mission is bridge the gap between journalists and experts and bring awareness to your brand. </p>
                 </div> 
                 <div>
                     <h2 

@@ -11,51 +11,33 @@ function Nav() {
     }
   return (
     <div>
-        <header>
-    <nav class="bg-white px-4 lg:px-6 py-2.5">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <span  class="flex items-center text-black">
-                <IoIosPulse class='mr-3'/>
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">PulsePR</span>
-            </span>
-            {/* <span class="flex items-center text-black">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
-                {/* <Link> <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-black">About</span> </Link> */}
-            {/* </span> */} 
-            {/* <span onClick={()=>goToFAQ()}class="flex items-center text-black">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
-                {/* <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-black">FAQ</span> */}
-            {/* </span> */} 
-            <div class="flex items-center after:transition after:ease-[ease] after:duration-50 lg:order-2">
-                <button onClick={(e)=> goToContactForm(e)}>
-                    <a href="#" class="flex text-black bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
-                        Contact Us
-                        <svg class="mr-5 w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-
-                    </a>
-                </button>
-                {/* <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> */}
-            </div>
-            {/* <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
-                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-black" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
-                    </li>
-                </ul>
-            </div> */}
+        <nav class="flex items-center justify-between flex-wrap bg-white p-6">
+        <div class="flex items-center flex-shrink-0 text-black mr-6">
+            <IoIosPulse class='text=white mr-2'/>
+            <span class="font-semibold text-xl tracking-tight">PulsePR</span>
         </div>
-    </nav>
-</header>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+            <a 
+            onClick={()=> goToFAQ()}
+            href="#responsive-header" class="inline-block text-lg px-4 py-2 leading-none rounded text-black hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">
+                FAQ
+            </a>
+            <a href="/about" class="inline-block text-lg px-4 py-2 leading-none rounded text-black hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">
+                About Us
+            </a>
+            </div>
+            <div>
+            <a href="#" 
+            class="inline-block text-lg px-4 py-2 leading-none border rounded text-black border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Contact Us</a>
+            </div>
+        </div>
+        </nav>
 
     </div>
   )
