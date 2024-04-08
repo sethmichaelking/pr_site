@@ -20,11 +20,7 @@ export function AccordionFx() {
           <p className="mb-2 text-gray-500 dark:text-gray-400">
             Newsrooms are unpredictable places. We have former journalists here that will tell you they've followed up with editors numerous times in order to get their articles published. Some articles also get "killed", which is when an article is cancelled entirely. We've all been there. 
 
-            Depending on the article your contributing quotes too, expect anywhere from 2-4 months. 
-          </p>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-            technical reason stopping you from using the best of two worlds.
+            Depending on the article your contributing too, expect anywhere from 2-4 months. 
           </p>
         </Accordion.Content>
       </Accordion.Panel>
@@ -34,7 +30,7 @@ export function AccordionFx() {
           <p className="mb-2 text-gray-500 dark:text-gray-400">
             While some agencies are averse to certain industries - such as gambling, adult content, or pharmaceuticals - we don't avoid them. 
 
-            Journalists often prefer to link out to pages that are informational or heplful in order to provide their readers with more context. If your concerned your site doesn't have any content worth linking out too, let's tak about our team building content out for you before we reach out to journalits and editors at publications. They will do their own research on you and expect you've done the ground work or posting great content. 
+            Journalists often prefer to link out to pages that are informational or heplful in order to provide their readers with more context. If your concerned your site doesn't have any content worth linking out too, let's tak about our team building content out for you before we reach out to journalits and editors at publications.
           </p>
         </Accordion.Content>
       </Accordion.Panel>

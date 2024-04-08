@@ -18,7 +18,7 @@ function Howitworks() {
                         <p> 1</p>
                     </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white"> Research </h3>
-                        <p class="text-gray-500 dark:text-gray-400">We learn about your background and put together a press kit we can send journalists each time we pitch your expertise.</p>
+                        <p class="text-gray-500 dark:text-gray-400">We learn about your background and pitch your expertise and story to jouranlists in the media.</p>
                     </div>
                     <div style={{
                             textAlign: '-webkit-center'
@@ -27,7 +27,7 @@ function Howitworks() {
                         <p> 2</p>
                     </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Outreach</h3>
-                        <p class="text-gray-500 dark:text-gray-400">Your outreach manager engages with journalists and editors on your behalf, pitching your story and expertise.</p>
+                        <p class="text-gray-500 dark:text-gray-400">We identify oppurtunities on your behalf and engage with journalists and editors on your behalf.</p>
                     </div>
                     <div style={{
                             textAlign: '-webkit-center'
@@ -36,7 +36,7 @@ function Howitworks() {
                         <p> 3</p>
                     </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">Results</h3>
-                        <p class="text-gray-500 dark:text-gray-400">Get backlinks from trusted and respected publications in the form on quotes, interviews, breaking news and more. Each month we'll send you a report on backlinks in progress.  </p>
+                        <p class="text-gray-500 dark:text-gray-400">Get backlinks from trusted and respected publications in the form on quotes, interviews, breaking news and more. Each month we'll send you a report of backlinks in progress.  </p>
                     </div>
                 </div>
             </div>

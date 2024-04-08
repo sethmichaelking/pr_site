@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import propic from '../components/propic.png'
 import signature from '../components/signature.png'
+import Footer from './Footer'
 function About() {
   return (
     <div>
@@ -50,7 +51,9 @@ function About() {
                             width: '80%'
                         }}>I credited my success to not only knowing how to pitch and identify a captivating story that editors want to publish, but also in taking advantage of HARO, a site which lets publicists pitch their clients to journalists for upcoming stories.
                         </p>
-                        <p style={{
+                        <p 
+                        class='mb-2'
+                        style={{
                             width: '80%'
                         }}> If your brand needs a jumpstart, let us handle the process of pitching journalists on your story so you stand out from the crowd. 
                         </p>
@@ -58,12 +61,12 @@ function About() {
                         style={{
                             width: '80%',
                             marginBottom: '12px'
-                        }}> We comb HARO to discover new oppurtunities, and leverage our meaninful relationships with editors, journalsists, and influencers across the media industry to ensure your the go-to source for comment on new stories.</p>
+                        }}> We comb HARO to discover new oppurtunities, and leverage our meaningful relationships with editors, journalsists, and influencers across the media industry to ensure your the go-to source for comment on new stories.</p>
                         <p> Cheers,</p>
                         <img 
                         class='grow self-start'
                         style={{
-                            height: '13%'
+                            height: '5%'
                         }} src={signature}/>
                     </div>
                     <div>
@@ -74,7 +77,7 @@ function About() {
                 </div>
                 </div>
             </section>
-            
+            <Footer/>
         </div>
     </div>
   )
